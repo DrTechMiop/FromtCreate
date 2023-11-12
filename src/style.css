@@ -1,0 +1,53 @@
+@import url('./normalize.css');
+
+:root {
+  --blue-700: #1A56DB;
+  --gray-200: #E5E7EB;
+  --gray-50: #F9FAFB;
+  --black: #000000;
+  --white: #ffffff;
+  --surf-100: #4e5b91;
+  --gray: #6B7280;
+}
+
+.h4{
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.body{
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.small{
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; 
+}
+
+.link{
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; 
+  text-decoration-line: underline;
+}
+
+.container{
+  display: flex;
+  padding: 20px 40px;
+  justify-content: space-between;
+  row-gap: 16px;
+  flex-wrap: wrap;
+  background: var(--surf-100);
+}
