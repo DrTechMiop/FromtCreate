@@ -6,9 +6,9 @@ defineProps([
 
 
 <template>
-  <a :href="link" class="base-link link">
+  <RouterLink :to="link" class="base-link link">
     {{ text }}
-  </a>
+  </RouterLink>
 </template>
 
 <style scoped>

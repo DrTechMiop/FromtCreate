@@ -26,6 +26,15 @@
   line-height: 18px;
 }
 
+.body-medium{
+    
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
 .small{
   font-family: Inter;
   font-size: 12px;
